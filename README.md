@@ -18,12 +18,6 @@ _Alfred 3와 4를 지원합니다._
 | 이 워크플로우가 유용하다면 오른쪽 위 <kbd>🌟Star</kbd>를 꼭 눌러주세요!
 </div>
 
-## Installation
-
-1. [Alfred](https://www.alfredapp.com/) 를 먼저 설치해 주세요.
-2. [이 곳](https://github.com/eungbean/Alfred-Papago-Workflow/releases)에서 <Kbd>papago-alfred_v1_0.alfredworkflow</kbd>를 다운받습니다.
-3. 파일을 열면, 설치가 완료됩니다!
-
 ## ⚡  Quickstart
 ### 1. 즉시 번역 및 복사하기 <kbd>pp</kbd>
 ```
@@ -40,6 +34,12 @@ ppo {긴 문장}
 
 
 
+## Installation
+
+1. [Alfred](https://www.alfredapp.com/) 를 먼저 설치해 주세요.
+2. [이 곳](https://github.com/eungbean/Alfred-Papago-Workflow/releases)에서 <Kbd>papago-alfred_v1_0.alfredworkflow</kbd>를 다운받습니다.
+3. 파일을 열면, 설치가 완료됩니다! 다음 Setup 과정을 따라 세팅을 마쳐주세요.
+4. 
 ## 🚀 Setup
 
 ### 1. Papago API Key 발급받기
