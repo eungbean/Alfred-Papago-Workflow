@@ -19,9 +19,8 @@ _Alfred 3와 4를 지원합니다._
 </div>
 
 ## Installation
-```
-Alfred 를 먼저 설치해 주세요.
-```
+
+1. [Alfred](https://www.alfredapp.com/) 를 먼저 설치해 주세요.
 2. [이 곳](https://github.com/eungbean/Alfred-Papago-Workflow/releases)에서 <Kbd>papago-alfred_v1_0.alfredworkflow</kbd>를 다운받습니다.
 3. 파일을 열면, 설치가 완료됩니다!
 
