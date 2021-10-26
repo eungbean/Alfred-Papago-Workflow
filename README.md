@@ -36,7 +36,7 @@ ppo {긴 문장}
 
 ## Installation
 
-1. [Alfred](https://www.alfredapp.com/) 를 먼저 설치해 주세요.
+1. [Alfred](https://www.alfredapp.com/) 를 먼저 설치해 주세요. _**Alfred의 Workflow기능의 활성화를 위해 Powerpack이 필요합니다.**_
 2. [이 곳](https://github.com/eungbean/Alfred-Papago-Workflow/releases)에서 <Kbd>papago-alfred_v1_0.alfredworkflow</kbd>를 다운받습니다.
 3. 파일을 열면, 설치가 완료됩니다! 다음 Setup 과정을 따라 세팅을 마쳐주세요.
 4. 
