@@ -9,12 +9,13 @@
 🚀 빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다. (<kbd>Enter</kbd>)<br>
 🛸 긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. (<kbd>ppo</kbd>)
 
-
-
-**[[DOWNLOAD]](github.com/eungbean/Alfred-Papago-Workflow/releases)**  
-  **[[BLOG]](eungbean.io/dev/papago-alfred)**
-
 _Alfred 3와 4를 지원합니다._
+
+**[[DOWNLOAD]](github.com/eungbean/Alfred-Papago-Workflow/releases)**   **[[BLOG]](eungbean.io/dev/papago-alfred)**
+
+
+ 
+| 이 워크플로우가 유용하다면 오른쪽 위 <kbd>🌟Star</kbd>를 꼭 눌러주세요!
 </div>
 
 
