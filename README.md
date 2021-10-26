@@ -1,4 +1,4 @@
-# Papago Translation Workflow for Alfred 3
+# Papago Translation Workflow for [Alfred](https://www.alfredapp.com/)
 ![](https://img.shields.io/github/checks-status/eungbean/Alfred-Papago-Workflow/main)
 
 <div align="center">
@@ -11,13 +11,19 @@
 
 _Alfred 3와 4를 지원합니다._
 
-**[[DOWNLOAD]](github.com/eungbean/Alfred-Papago-Workflow/releases)**   **[[BLOG]](eungbean.io/dev/papago-alfred)**
+**[[DOWNLOAD]](https://github.com/eungbean/Alfred-Papago-Workflow/releases)**   **[[BLOG]](eungbean.io/dev/papago-alfred)**
 
 
  
 | 이 워크플로우가 유용하다면 오른쪽 위 <kbd>🌟Star</kbd>를 꼭 눌러주세요!
 </div>
 
+## Installation
+```
+Alfred 를 먼저 설치해 주세요.
+```
+2. [이 곳](https://github.com/eungbean/Alfred-Papago-Workflow/releases)에서 <Kbd>papago-alfred_v1_0.alfredworkflow</kbd>를 다운받습니다.
+3. 파일을 열면, 설치가 완료됩니다!
 
 ## ⚡  Quickstart
 ### 1. 즉시 번역 및 복사하기 <kbd>pp</kbd>
