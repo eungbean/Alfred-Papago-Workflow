@@ -1,4 +1,4 @@
-# Papago Translation Workflow for Alfred 3
+# Papago Translation Workflow for Alfred 5
 ![](https://img.shields.io/github/checks-status/eungbean/Alfred-Papago-Workflow/main)
 
 <div align="center">
