@@ -12,7 +12,7 @@
 
 
 **[[DOWNLOAD]](https://github.com/eungbean/Alfred-Papago-Workflow/releases)**  
-  **[[BLOG]](eungbean.io/dev/papago-alfred)**
+  **[[BLOG]](https://eungbean.io/dev/papago-alfred)**
 
 _최신 Alfred 5를 지원합니다._
 </div>
