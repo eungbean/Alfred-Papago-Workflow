@@ -1,4 +1,4 @@
-# Papago Translation Workflow for [Alfred](https://www.alfredapp.com/)
+# Papago Translation Workflow for Alfred 3
 ![](https://img.shields.io/github/checks-status/eungbean/Alfred-Papago-Workflow/main)
 
 <div align="center">
@@ -9,14 +9,14 @@
 🚀 빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다. (<kbd>Enter</kbd>)<br>
 🛸 긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. (<kbd>ppo</kbd>)
 
-_Alfred 3와 4를 지원합니다._
-
-**[[DOWNLOAD]](https://github.com/eungbean/Alfred-Papago-Workflow/releases)**   **[[BLOG]](eungbean.io/dev/papago-alfred)**
 
 
- 
-| 이 워크플로우가 유용하다면 오른쪽 위 <kbd>🌟Star</kbd>를 꼭 눌러주세요!
+**[[DOWNLOAD]](github.com/eungbean/Alfred-Papago-Workflow/releases)**  
+  **[[BLOG]](eungbean.io/dev/papago-alfred)**
+
+_최신 Alfred 5를 지원합니다._
 </div>
+
 
 ## ⚡  Quickstart
 ### 1. 즉시 번역 및 복사하기 <kbd>pp</kbd>
@@ -34,13 +34,6 @@ ppo {긴 문장}
 
 
 
-## Installation
-
-| _**Alfred의 Workflow기능의 활성화를 위해 [Powerpack](https://www.alfredapp.com/powerpack/)이 필요합니다.**_
-1. [Alfred](https://www.alfredapp.com/) 를 먼저 설치해 주세요.
-2. [이 곳](https://github.com/eungbean/Alfred-Papago-Workflow/releases)에서 <Kbd>papago-alfred_v1_0.alfredworkflow</kbd>를 다운받습니다.
-3. 파일을 열면, 설치가 완료됩니다! 다음 Setup 과정을 따라 세팅을 마쳐주세요.
-4. 
 ## 🚀 Setup
 
 ### 1. Papago API Key 발급받기
@@ -67,7 +60,7 @@ ppo {긴 문장}
 
 
 ## ❤ Contributions
-질문이 있나요? 버그를 발견했나요? 특정 기능이 필요한가요?  
+질문이나 버그를 발견했나요? 특정 기능이 필요하신가요?
 자유롭게 새로운 이슈나 각각의 제목과 설명과 함께 PR을 제출하세요.   
 문제에 대한 해결책을 이미 찾았다면 망설이지 말고 공유하세요.  
 새로운 제안은 언제든지 환영입니다!  

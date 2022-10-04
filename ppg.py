@@ -1,21 +1,25 @@
-#!/usr/bin/python
-# encoding: utf-8
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# ppg.py
 
 import sys
-import os
-from workflow import Workflow3, web
-from six.moves import urllib
 import json
+
+import urllib.parse
+import urllib.request
+# import json
+
 from client_id import client_id
 from client_secret import client_secret
-
-reload(sys)
-sys.setdefaultencoding("utf-8")
-
+# 
 assert client_id, "client_id를 설정하세요. ppconfig -> id"
 assert client_secret, "client_secret를 설정하세요. ppconfig -> secret"
 
 def find_language_code(word):
+    """
+    python3 tested
+    """
     encQuery = urllib.parse.quote(word.encode('utf-8'))
     data = "query=" + encQuery
     url = "https://openapi.naver.com/v1/papago/detectLangs"
@@ -30,9 +34,8 @@ def find_language_code(word):
         dt = response_body.decode('utf-8')
     else:
         dt = "Error Code:" + rescode
-
+    
     return json.loads(dt)
-
 
 def get_translated_data(word):
     encText = urllib.parse.quote(word.encode('utf-8'))
@@ -57,33 +60,61 @@ def get_translated_data(word):
         dt = "Error Code:" + rescode
 
     return json.loads(dt)
-
-
-def main(wf):
     
-    args = wf.args[0]
-    res_json = get_translated_data(args.encode('utf-8'))
+
+def main():   
+    """
+    output_json = {
+        'message': {
+            'result': {
+                'srcLangType': 'en', 
+                'tarLangType': 'ko', 
+                'translatedText': '이것은 테스트 입력입니다.', 
+                'engineType': 'N2MT', 
+                'pivot': None, 
+                'dict': None, 
+                'tarDict': None
+                }, 
+            '@type': 'response', 
+            '@service': 'naverservice.nmt.proxy', 
+            '@version': '1.0.0'
+        }
+    }
+
+    """
+    inputString = sys.argv[1] 
+    # Translate inputString
     
-    if res_json:
+    output_json = get_translated_data(str(inputString))
+    translatedString = output_json['message']['result']['translatedText']
+    
+    # Produce output
+    result = {"items": []}
+    
+    outputLangCode = output_json['message']['result']['tarLangType']
 
-        wf.add_item(
-            title = u'%s' % args,
-            subtitle = u"Result : %s"% res_json['message']['result']['translatedText'],
-            arg = u"%s"% res_json['message']['result']['translatedText'],
-            valid = True, # True = Pass to next action.
-        ) # add items
-
+    if translatedString:
+        result["items"].append({
+            "title": f"{translatedString}",
+            'subtitle': "[Enter]를 누르면 결과를 클립보드로 복사합니다.",
+            # 'valid': True,
+            # 'uid': 'outputString',
+            "icon": {
+                "path": 'icon.png'
+            },
+            'arg': translatedString,
+                }) 
     else:
-        wf.add_item(
-            title = 'No Result',
-            subtitle = 'Search in the web',
-            arg = args,
-            valid = True # True = Pass to next action.
-        ) # when there's no result
+        result["items"].append({
+            "title": 'No Result',
+            "subtitle":  "[Enter]를 누르면 웹에서 검색합니다.",
+            "arg": inputString,
+            "valid": True # True = Pass to next action.
+        })
 
-    wf.send_feedback()
+    print (json.dumps(result))
+    sys.stdout.flush()
 
 
-if __name__ == u"__main__":
-    wf = Workflow3()
-    sys.exit(wf.run(main))
+if __name__ == '__main__':
+    main()
