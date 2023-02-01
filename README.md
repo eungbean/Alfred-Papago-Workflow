@@ -36,6 +36,10 @@ ppo {긴 문장}
 
 ## 🚀 Setup
 
+### 0. 필수설치
+Xcode의 설치가 필요합니다.
+앱스토어에서 [XCode](https://developer.apple.com/download/all/?q=Xcode)를 설치해주세요.
+
 ### 1. Papago API Key 발급받기
 파파고 Alfred3 Workflow를 사용하기 위해서는 초기설정이 필요합니다.
 
