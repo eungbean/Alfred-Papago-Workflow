@@ -1,4 +1,4 @@
-# Papago Translation Workflow for Alfred 5
+# Papago Workflow for Alfred 5
 
 ![](https://img.shields.io/github/checks-status/eungbean/Alfred-Papago-Workflow/main)
 
@@ -6,15 +6,22 @@
 
 ![overview](document/overview.gif)
 
-쉽고 빠른 한/영, 영/한 번역이 필요해 직접 만들었습니다! <br><br>
-🚀 빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다. (<kbd>Enter</kbd>)<br>
-🛸 긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. <br>
-🌎 다양한 언어를 지원합니다. `🇰🇷 ↔️ 🇺🇸 🇯🇵 🇨🇳 🇻🇳 🇮🇩 🇹🇭 🇩🇪 🇪🇸 🇮🇹 🇫🇷`<br>
+쉽고 빠른 한/영, 영/한 번역이 필요해 직접 만들었습니다! <br>
+최신 Alfred 5를 지원합니다.<br><br>
+
+
+🚀  빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다. (<kbd>Enter</kbd>)<br>
+🛸  긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. <br>
+🌎  드디어, 다양한 언어 번역을 지원합니다!<br>
+`🇰🇷 ↔️ 🇺🇸 🇯🇵 🇨🇳 🇻🇳 🇮🇩 🇹🇭 🇩🇪 🇪🇸 🇮🇹 🇫🇷`<br>
+<br>
+
 
 **[[DOWNLOAD]](https://github.com/eungbean/Alfred-Papago-Workflow/releases)**
 **[[BLOG]](https://eungbean.io/dev/papago-alfred)**
 
-_최신 Alfred 5를 지원합니다._
+> [!IMPORTANT]
+> __오른쪽 위의 `Star⭐` 를 눌러주시면 큰 힘이 됩니다!__
 
 </div>
 
@@ -66,9 +73,14 @@ pp {문장}
 - `slient_secret`에 Secret을 입력합니다.
 - `Test`를 통해 정상 작동 여부를 확인할 수 있습니다.
 
-## 🎛 Workflow
 
-![workflow](document/workflow.png)
+## 🧚‍♀️ Features
+- [x] 한/영, 영/한 번역 기능
+- [x] 바로 복사하기 및 웹사이트에서 열기
+- [x] 다양한 언어쌍 번역 기능
+- [ ] 타겟 언어 설정 기능
+- [ ] __더 많은 기능 제안을 기다립니다!__
+
 
 ## ❤ Contribution is always welcome!
 질문이나 버그를 발견했나요? 특정 기능이 필요하신가요?  
@@ -77,6 +89,11 @@ pp {문장}
 새로운 제안은 언제든지 환영입니다!  
 
 * (2023-11)[@f022yo9](https://github.com/f022yo9) [@DreamingMaru](https://github.com/DreamingMaru): Thank you for discovering and resolving SSL Credential Error.
+
+
+## 🎛 Workflow
+
+![workflow](document/workflow.png)
 
 
 ## Licenses
