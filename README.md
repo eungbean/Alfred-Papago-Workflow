@@ -22,7 +22,7 @@ _최신 Alfred 5를 지원합니다._
 
 ### 1. 즉시 번역 및 복사하기 <kbd>pp</kbd>
 
-![result-copy](document/result-copy.png)
+<img src = "document/result-copy.png" height="50%">
 
 ```
 pp {문장}
@@ -33,7 +33,7 @@ pp {문장}
 
 ### 2. 웹사이트로 이동해 번역하기
 
-![result-web](document/result-web.png)
+<img src = "document/result-web.png" height="50%">
 
 - 긴 문장등의 번역이 필요할 때, 브라우저에서 번역 결과를 보여줍니다.
 
@@ -60,7 +60,7 @@ pp {문장}
 
 ### 2. Papago API Key 설정하기 <kbd>ppconfig</kbd>
 
-![ppconfig](document/ppconfig.png)
+<img src = "document/ppconfig.png" height="50%">
 
 - `client_id`에 Client ID를 입력합니다.
 - `slient_secret`에 Secret을 입력합니다.
@@ -70,12 +70,14 @@ pp {문장}
 
 ![workflow](document/workflow.png)
 
-## ❤ Contributions
+## ❤ Contribution is always welcome!
+질문이나 버그를 발견했나요? 특정 기능이 필요하신가요?  
+자유롭게 새로운 이슈나 각각의 제목과 설명과 함께 PR을 제출하세요.  
+문제에 대한 해결책을 이미 찾았다면 망설이지 말고 공유하세요.  
+새로운 제안은 언제든지 환영입니다!  
 
-질문이나 버그를 발견했나요? 특정 기능이 필요하신가요?
-자유롭게 새로운 이슈나 각각의 제목과 설명과 함께 PR을 제출하세요.
-문제에 대한 해결책을 이미 찾았다면 망설이지 말고 공유하세요.
-새로운 제안은 언제든지 환영입니다!
+* (2023-11)[@f022yo9](https://github.com/f022yo9) [@DreamingMaru](https://github.com/DreamingMaru): Thank you for discovering and resolving SSL Credential Error.
+
 
 ## Licenses
 
