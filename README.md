@@ -8,7 +8,7 @@
 
 쉽고 빠른 한/영, 영/한 번역이 필요해 직접 만들었습니다! <br><br>
 🚀 빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다. (<kbd>Enter</kbd>)<br>
-🛸 긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. (<kbd>ppo</kbd>)<br>
+🛸 긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. <br>
 🌎 다양한 언어를 지원합니다. `🇰🇷 ↔️ 🇺🇸 🇯🇵 🇨🇳 🇻🇳 🇮🇩 🇹🇭 🇩🇪 🇪🇸 🇮🇹 🇫🇷`<br>
 
 **[[DOWNLOAD]](https://github.com/eungbean/Alfred-Papago-Workflow/releases)**
@@ -22,6 +22,8 @@ _최신 Alfred 5를 지원합니다._
 
 ### 1. 즉시 번역 및 복사하기 <kbd>pp</kbd>
 
+![result-copy](document/result-copy.png)
+
 ```
 pp {문장}
 ```
@@ -29,11 +31,9 @@ pp {문장}
 - 문장을 즉시 한/영, 영/한 번역합니다.
 - 엔터키를 누르면 클립보드로 복사합니다.
 
-### 2. 웹사이트로 이동해 번역하기 <kbd>ppo</kbd>
+### 2. 웹사이트로 이동해 번역하기
 
-```
-ppo {긴 문장}
-```
+![result-web](document/result-web.png)
 
 - 긴 문장등의 번역이 필요할 때, 브라우저에서 번역 결과를 보여줍니다.
 
