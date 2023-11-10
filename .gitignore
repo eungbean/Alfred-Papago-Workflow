@@ -1,6 +1,7 @@
 #
 client_id.py
 client_secret.py
+client_*.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

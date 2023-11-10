@@ -43,20 +43,7 @@ LANGCODES = {
 
 
 SUPPORTED_PAIRS = {  # fmt: off
-    "ko": [
-        "en",
-        "ja",
-        "zh-CN",
-        "zh-TW",
-        "vi",
-        "id",
-        "th",
-        "de",
-        "ru",
-        "es",
-        "it",
-        "fr",
-    ],
+    "ko": ["en", "ja", "zh-CN", "zh-TW", "vi", "id", "th", "de", "ru", "es", "it", "fr"],
     "en": ["ko", "ja", "fr", "zh-CN", "zh-TW"],
     "ja": ["ko", "en", "zh-CN", "zh-TW"],
     "zh-CN": ["ko", "en", "ja", "zh-TW"],
@@ -130,27 +117,19 @@ def get_translated_data(word: str, langcode_pair: tuple) -> dict:
     return get_response(appcode="n2mt", data=data)
 
 
-def return_client_error(rescode):
-    title = f"[{rescode}error] client_id/secret을 설정하세요."
-    subtitle = "ppconfig -> id/secret"
-    return make_alfred_output(
-        title, subtitle, variables={"goto_setting": True}
-    )  # , valid=False)
-
-
-def make_alfred_output(title, subtitle, arg=None, variables={}, valid=True):
+def return_error(title, subtitle):
     return {
-        "variables": variables,
+        "variables": {'status': False},
         "items": [
             {
                 "title": title,
                 "subtitle": subtitle,
-                "icon": {"path": "icon.png"},
-                "arg": arg,
-                "valid": valid,
+                # "icon": {"path": "clipboard.png"},
+                "arg": 'error',
+                "valid": False,
                 # 'uid': 'outputString',
             }
-        ],
+        ]
     }
 
 
@@ -159,16 +138,20 @@ def main(inputString=None):
     This is the main function that takes an input string from the command line argument,
     translates it using the get_translated_data function, and produces an output in JSON format.
     """
-    # if client information not exist.
+    # [ERROR] Client Not Set
     if "[ERR]" in client_id:
-        return return_client_error()
+        title = '[Error] client_id/secret가 잘 설정되었는지 확인해주세요.'
+        subtitle = "설정법: ppconfig -> id/secret"
+        return return_error(title, subtitle)
 
     # Language detection
     source_langcode = get_source_langcode(inputString)
 
-    # client_id/secret error
+    # [ERROR] client_id/secret not valid
     if isinstance(source_langcode, int):
-        return return_client_error(source_langcode)
+        title = '[Error] client_id/secret가 잘 설정되었는지 확인해주세요.'
+        subtitle = "설정법: ppconfig -> id/secret"
+        return return_error(title, subtitle)
 
     source_langcode = source_langcode["langCode"]
 
@@ -182,30 +165,43 @@ def main(inputString=None):
     langcode_pair = (source_langcode, target_langcode)
     is_supported = check_langpairs(langcode_pair)
 
+    # ERROR if not supported
     if not is_supported:
         title = f"[{LANGCODES[source_langcode]}->{LANGCODES[target_langcode]}] Not Supported Language Pair."
         subtitle = "파파고에서 지원하지 않는 언어입니다.🥲"
-        arg = inputString
+        return return_error(title, subtitle)
 
     if is_supported:
         # Translate inputString
         output_json = get_translated_data(inputString, langcode_pair)
         translatedString = output_json["message"]["result"]["translatedText"]
 
-        # Produce output
-        # langpair: Supported, Translation: Success
-        if translatedString:
-            title = f"{translatedString}"
-            subtitle = "[Enter]를 누르면 결과를 클립보드로 복사합니다."
-            arg = translatedString
+    return {
+        "variables": {
+            'input': inputString,
+            'result': translatedString,
+            'status': True,
+        },
+        "items": [
+            {
+                "title": f"{translatedString}",
+                "subtitle": '[Enter]를 누르면 결과를 클립보드로 복사합니다.',
+                "icon": {"path": "clipboard.png"},
+                "arg": 'copy',
+                "valid": True,
+                # 'uid': 'outputString',
+            },
+            {
+                "title": "Open in the Web",
+                "subtitle": "웹페이지에서 결과를 봅니다.",
+                "icon": {'path': 'globe.png'},
+                "arg": 'web',
+                "valid": True,
+                # 'uid': 'outputString',
+            }
 
-        # langpair: Supported, Translation: Success
-        else:
-            title = "No Result"
-            subtitle = "[Enter]를 누르면 웹에서 검색합니다."
-            arg = inputString
-
-    return make_alfred_output(title, subtitle, arg)
+        ]
+    }
 
 
 def test_main():
