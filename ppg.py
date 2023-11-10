@@ -43,7 +43,20 @@ LANGCODES = {
 
 
 SUPPORTED_PAIRS = {  # fmt: off
-    "ko": ["en", "ja", "zh-CN", "zh-TW", "vi", "id", "th", "de", "ru", "es", "it", "fr"],
+    "ko": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW",
+        "vi",
+        "id",
+        "th",
+        "de",
+        "ru",
+        "es",
+        "it",
+        "fr",
+    ],
     "en": ["ko", "ja", "fr", "zh-CN", "zh-TW"],
     "ja": ["ko", "en", "zh-CN", "zh-TW"],
     "zh-CN": ["ko", "en", "ja", "zh-TW"],
@@ -120,7 +133,9 @@ def get_translated_data(word: str, langcode_pair: tuple) -> dict:
 def return_client_error(rescode):
     title = f"[{rescode}error] client_id/secret을 설정하세요."
     subtitle = "ppconfig -> id/secret"
-    return make_alfred_output(title, subtitle, variables={'goto_setting': True})#, valid=False)
+    return make_alfred_output(
+        title, subtitle, variables={"goto_setting": True}
+    )  # , valid=False)
 
 
 def make_alfred_output(title, subtitle, arg=None, variables={}, valid=True):
@@ -135,7 +150,7 @@ def make_alfred_output(title, subtitle, arg=None, variables={}, valid=True):
                 "valid": valid,
                 # 'uid': 'outputString',
             }
-        ]
+        ],
     }
 
 
