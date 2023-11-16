@@ -1,7 +1,5 @@
 # Papago Workflow for Alfred 5
 
-![](https://img.shields.io/github/checks-status/eungbean/Alfred-Papago-Workflow/main)
-
 <div align="center">
 
 ![overview](document/overview.gif)
@@ -12,7 +10,7 @@
 
 ---
 
-🚀   빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다. (<kbd>Enter</kbd>)<br>
+🚀   빠르고 쉽게 번역을 하고 (<kbd>pp</kbd>) 결과를 복사합니다.<br>
 
 🛸   긴 문장 번역이 필요할 때, 웹사이트에서 결과를 볼 수도 있습니다. <br>
 
