@@ -24,6 +24,7 @@ except ImportError:
     client_id = "[ERR] client_id/secret을 설정하세요."
     client_secret = "[ERR] client id/secret is not defined."
 
+TIER = os.environ["tier"]
 
 LANGCODES = {
     # Supported Language Codes
@@ -159,15 +160,18 @@ def main(inputString=None):
         return return_error(title, subtitle)
 
     # Language detection
-    source_langcode = get_source_langcode(inputString)
+    if TIER == "tier1":
+        source_langcode = "en"
+    elif TIER == "tier2":
+        source_langcode = get_source_langcode(inputString)
 
-    # [ERROR] client_id/secret not valid
-    if isinstance(source_langcode, int):
-        title = "[Error] client_id/secret가 잘 설정되었는지 확인해주세요."
-        subtitle = "Plese check client_id/secret."
-        return return_error(title, subtitle)
+        # [ERROR] client_id/secret not valid
+        if isinstance(source_langcode, int):
+            title = "[Error] client_id/secret가 잘 설정되었는지 확인해주세요."
+            subtitle = "Plese check client_id/secret."
+            return return_error(title, subtitle)
 
-    source_langcode = source_langcode["langCode"]
+        source_langcode = source_langcode["langCode"]
 
     # TODO: Add target_langcode option
     # target_langcode = get_target_langcode(something)
@@ -248,14 +252,42 @@ def test_main():
         # sys.stdout.flush()
 
 
+def bypass_query(query):
+    # return query
+
+    return {
+        "action": "Open URL",
+        "variables": {
+            "input": query,
+            "result": query,
+            "status": True,
+        },
+        "items": [
+            {
+                "uid": "web",
+                "title": f"{query}",
+                "subtitle": "[Enter]를 웹에서 결과를 봅니다.",
+                "icon": {"path": "globe.png"},
+                "arg": query,
+                # "arg": f"https://papago.naver.com/?&st={query}",
+                # "valid": True,
+            },
+        ],
+    }
+
+
 if __name__ == "__main__":
     """
     main function.
     python ppg.py 'SOME STRING TO TRANSLATE'
     """
     input_string = str(sys.argv[1])
-    if input_string == "debug":
-        test_main()
-    out = main(input_string)
+    if TIER == "tier0":  # Free tier
+        out = bypass_query(input_string)
+
+    else:
+        # if input_string == "debug":
+        #     test_main()
+        out = main(input_string)
     print(json.dumps(out))
     sys.stdout.flush()

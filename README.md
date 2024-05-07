@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> 기존 사용자 분들께서는 새로운 API Client id/secret으로 업데이트를 해주셔야 합니다. 아래 Setup 항목을 참조해주세요.  
-
 # Papago Workflow for Alfred 5
 
 <div align="center">
@@ -115,10 +112,12 @@ pp {문장}
 문제에 대한 해결책을 이미 찾았다면 망설이지 말고 공유하세요.
 새로운 제안은 언제든지 환영입니다!
 
-- (2024-05-07) https://github.com/eungbean/Alfred-Papago-Workflow/issues/7 [@dead-1ine](https://github.com/dead-1ine) [@joel-you](https://github.com/joel-you) [@taese0_0ng](https://github.com/taese0ng) Thank you for your update request for papago api shutdown issue.
-*
+- Thank you for your update request for papago api shutdown issue.
+* (2024-05-07)
 
-- (2023-11) https://github.com/eungbean/Alfred-Papago-Workflow/issues/5 [@f022yo9](https://github.com/f022yo9) [@DreamingMaru](https://github.com/DreamingMaru): Thank you for discovering and resolving SSL Credential Error.
+- https://github.com/eungbean/Alfred-Papago-Workflow/issues/5 [@f022yo9](https://github.com/f022yo9) [@DreamingMaru](https://github.com/DreamingMaru): Thank you for discovering and resolving SSL Credential Error.
+* (2023-11)
+
 
 ## 🎛 Workflow
 

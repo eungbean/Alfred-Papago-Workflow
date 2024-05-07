@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>119F456E-C3A4-4F5E-84BA-5AA4BACDD8D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>831E2077-9CFC-4A79-AAFB-2B2AB1A04221</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>52087914-0C15-4DD7-B254-86611168CDFF</key>
 		<array>
 			<dict>
@@ -21,11 +34,26 @@
 				<false/>
 			</dict>
 		</array>
-		<key>9879750B-46FB-4B5D-88D7-4E7B60E326DC</key>
+		<key>831E2077-9CFC-4A79-AAFB-2B2AB1A04221</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>19727046-CC38-42D1-842D-3D51C6985260</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>ABBEFFB1-3099-4248-92B7-7C733027FA19</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9879750B-46FB-4B5D-88D7-4E7B60E326DC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>119F456E-C3A4-4F5E-84BA-5AA4BACDD8D3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -38,11 +66,50 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7F8AC6B9-54F6-4139-9F64-53BB06C79B2B</string>
+				<string>FB7BE785-CDB2-4108-BD34-C6B8A184D6A3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FB7BE785-CDB2-4108-BD34-C6B8A184D6A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E7AC1B7A-507A-4B40-937D-F2562A4E0B51</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>56648C14-E105-4D7A-BAFB-6EC7F900B8B5</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E7AC1B7A-507A-4B40-937D-F2562A4E0B51</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>7BEB69AA-3EB9-446B-92C3-3EB132CB00BF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>623B4D3D-FAFB-47C4-BD91-D0FC98624BCF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5DC5E577-872A-4213-93DF-754CE9326FC7</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -82,12 +149,41 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"도움말 (Help)","arg":"help","subtitle":"도움말 웹사이트로 이동할게요. (Enter)"}]</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Papago API 과금방식을 선택해주세요.</string>
+				<key>title</key>
+				<string>🎛 파파고 설정</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>119F456E-C3A4-4F5E-84BA-5AA4BACDD8D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>ppconfig</string>
 				<key>subtext</key>
-				<string>천천히 따라하면 쉽게 시작할 수 있어요. 도움말 웹사이트로 이동할게요. (Enter)</string>
+				<string>천천히 따라하면 쉽게 시작할 수 있어요.</string>
 				<key>text</key>
 				<string>🎛 파파고 설정</string>
 				<key>withspace</key>
@@ -103,27 +199,34 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtextrtf</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\c84706\cname controlTextColor;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-
-\f0\fs26 \cf2 \{query\}}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>help</string>
+						<key>outputlabel</key>
+						<string>Help</string>
+						<key>uid</key>
+						<string>ABBEFFB1-3099-4248-92B7-7C733027FA19</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>7F8AC6B9-54F6-4139-9F64-53BB06C79B2B</string>
+			<string>831E2077-9CFC-4A79-AAFB-2B2AB1A04221</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -141,7 +244,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>pp</string>
+				<string>{var:pp}</string>
 				<key>queuedelaycustom</key>
 				<integer>5</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -153,9 +256,11 @@
 				<key>runningsubtext</key>
 				<string>파파고 번역중...</string>
 				<key>script</key>
-				<string>python3 ppg.py "$1"</string>
+				<string># echo "$tier"
+
+python3 ppg.py "{query}"</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -165,7 +270,7 @@
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -173,6 +278,91 @@
 			<string>B92429C8-59F9-48D8-842A-1D6B291E7815</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtextrtf</key>
+				<string>{\rtf1\ansi\ansicpg949\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\c84706\cname controlTextColor;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 \{query\}}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E7AC1B7A-507A-4B40-937D-F2562A4E0B51</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:tier}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>tier0</string>
+						<key>outputlabel</key>
+						<string>Tier 0 - Free</string>
+						<key>uid</key>
+						<string>5DC5E577-872A-4213-93DF-754CE9326FC7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:tier}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>tier1</string>
+						<key>outputlabel</key>
+						<string>Tier 1 - Eng</string>
+						<key>uid</key>
+						<string>56648C14-E105-4D7A-BAFB-6EC7F900B8B5</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:tier}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>tier2</string>
+						<key>outputlabel</key>
+						<string>Tier 2 - Multi</string>
+						<key>uid</key>
+						<string>7BEB69AA-3EB9-446B-92C3-3EB132CB00BF</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FB7BE785-CDB2-4108-BD34-C6B8A184D6A3</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -201,7 +391,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>ppo</string>
+				<string>{var:ppo}</string>
 				<key>subtext</key>
 				<string>[ppo] 번역결과를 웹사이트로 엽니다.</string>
 				<key>text</key>
@@ -238,7 +428,14 @@
 ![setup-3](images/setup-3.png)
 
 
-7. [pp 문장] 으로 번역을 테스트해보세요.
+7. 과금방식을 선택해주세요.
+* 무료버전 - 웹사이트를 엽니다.
+* 영어전용 - 적은 API를 소모하지만 영어만을 지원합니다.
+* 다국어지원 - 많은 API를 소모하고 다국어 번역을 지원합니다.
+
+
+
+8. [pp 문장] 으로 번역을 테스트해보세요.
 ![setup-4](images/setup-4.png)
 
 ## Updatelog:
@@ -254,48 +451,53 @@ Papago API 서비스가 종료되었습니다.
 python3를 지원하지 않던 문제를 해결하였습니다.</string>
 	<key>uidata</key>
 	<dict>
+		<key>119F456E-C3A4-4F5E-84BA-5AA4BACDD8D3</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
 		<key>19727046-CC38-42D1-842D-3D51C6985260</key>
 		<dict>
 			<key>xpos</key>
-			<real>355</real>
+			<real>755</real>
 			<key>ypos</key>
-			<real>110</real>
+			<real>225</real>
 		</dict>
 		<key>52087914-0C15-4DD7-B254-86611168CDFF</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>130</real>
+			<real>140</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>620</real>
 		</dict>
 		<key>623B4D3D-FAFB-47C4-BD91-D0FC98624BCF</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>355</real>
+			<real>755</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>620</real>
 		</dict>
-		<key>7F8AC6B9-54F6-4139-9F64-53BB06C79B2B</key>
+		<key>831E2077-9CFC-4A79-AAFB-2B2AB1A04221</key>
 		<dict>
-			<key>colorindex</key>
-			<integer>6</integer>
 			<key>xpos</key>
-			<real>355</real>
+			<real>600</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>255</real>
 		</dict>
 		<key>9879750B-46FB-4B5D-88D7-4E7B60E326DC</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<real>130</real>
+			<real>140</real>
 			<key>ypos</key>
-			<real>110</real>
+			<real>225</real>
 		</dict>
 		<key>B92429C8-59F9-48D8-842A-1D6B291E7815</key>
 		<dict>
@@ -304,9 +506,25 @@ python3를 지원하지 않던 문제를 해결하였습니다.</string>
 			<key>note</key>
 			<string>Translate query and get response from Papago</string>
 			<key>xpos</key>
-			<real>130</real>
+			<real>145</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>410</real>
+		</dict>
+		<key>E7AC1B7A-507A-4B40-937D-F2562A4E0B51</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>760</real>
+			<key>ypos</key>
+			<real>415</real>
+		</dict>
+		<key>FB7BE785-CDB2-4108-BD34-C6B8A184D6A3</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>415</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -395,7 +613,39 @@ python3를 지원하지 않던 문제를 해결하였습니다.</string>
 			<key>variable</key>
 			<string>ppo</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>tier0</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>무료버전 (Free)</string>
+						<string>tier0</string>
+					</array>
+					<array>
+						<string>영어 전용</string>
+						<string>tier1</string>
+					</array>
+					<array>
+						<string>다국어 지원</string>
+						<string>tier2</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>무료버전: 웹에서 보기 전용 / 영어 전용: 적은 API 소모 / 다국어 지원: 많은 API 소모</string>
+			<key>label</key>
+			<string>과금 방식 선택</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>tier</string>
+		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>3.0</string>
 	<key>webaddress</key>
