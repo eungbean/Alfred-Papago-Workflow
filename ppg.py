@@ -190,34 +190,33 @@ def main(inputString=None):
         output_json = get_translated_data(inputString, langcode_pair)
         translatedString = output_json["message"]["result"]["translatedText"]
 
-    return translatedString
-    # return {
-    #     "variables": {
-    #         "input": inputString,
-    #         "result": translatedString,
-    #         "status": True,
-    #     },
-    #     "items": [
-    #         {
-    #             "title": f"{translatedString}",
-    #             "subtitle": "[Enter]를 누르면 결과를 클립보드로 복사합니다.",
-    #             "icon": {"path": "clipboard.png"},
-    #             # "action": "copy",
-    #             "arg": translatedString,
-    #             "valid": True,
-    #             # 'uid': 'outputString',
-    #         },
-    #         {
-    #             "title": "Open in the Web",
-    #             "subtitle": "웹페이지에서 결과를 봅니다.",
-    #             "icon": {"path": "globe.png"},
-    #             # "action": "web",
-    #             "arg": translatedString,
-    #             "valid": True,
-    #             # 'uid': 'outputString',
-    #         },
-    #     ],
-    # }
+    return {
+        "variables": {
+            "input": inputString,
+            "result": translatedString,
+            "status": True,
+        },
+        "items": [
+            {
+                "uid": "copy",
+                "title": f"{translatedString}",
+                "subtitle": "[Enter]를 누르면 결과를 클립보드로 복사합니다.",
+                "icon": {"path": "clipboard.png"},
+                # "action": "copy",
+                "arg": translatedString,
+                "valid": True,
+            },
+            # { # TODO
+            #     "uid": "web",
+            #     "title": "Open in the Web",
+            #     "subtitle": "웹페이지에서 결과를 봅니다.",
+            #     "icon": {"path": "globe.png"},
+            #     # "action": "web",
+            #     "arg": translatedString,
+            #     "valid": True,
+            # },
+        ],
+    }
 
 
 def test_main():
@@ -258,6 +257,5 @@ if __name__ == "__main__":
     if input_string == "debug":
         test_main()
     out = main(input_string)
-    print(out)
-    # print(json.dumps(out))
+    print(json.dumps(out))
     sys.stdout.flush()
