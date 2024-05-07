@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> 기존 사용자 분들께서는 새로운 API Client id/secret으로 업데이트를 해주셔야 합니다. 아래 Setup 항목을 참조해주세요.  
+
 # Papago Workflow for Alfred 5
 
 <div align="center">
