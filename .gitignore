@@ -1,7 +1,5 @@
 #
-client_id.py
-client_secret.py
-client_*.py
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
