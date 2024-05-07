@@ -190,31 +190,34 @@ def main(inputString=None):
         output_json = get_translated_data(inputString, langcode_pair)
         translatedString = output_json["message"]["result"]["translatedText"]
 
-    return {
-        "variables": {
-            "input": inputString,
-            "result": translatedString,
-            "status": True,
-        },
-        "items": [
-            {
-                "title": f"{translatedString}",
-                "subtitle": "[Enter]를 누르면 결과를 클립보드로 복사합니다.",
-                "icon": {"path": "clipboard.png"},
-                "arg": "copy",
-                "valid": True,
-                # 'uid': 'outputString',
-            },
-            {
-                "title": "Open in the Web",
-                "subtitle": "웹페이지에서 결과를 봅니다.",
-                "icon": {"path": "globe.png"},
-                "arg": "web",
-                "valid": True,
-                # 'uid': 'outputString',
-            },
-        ],
-    }
+    return translatedString
+    # return {
+    #     "variables": {
+    #         "input": inputString,
+    #         "result": translatedString,
+    #         "status": True,
+    #     },
+    #     "items": [
+    #         {
+    #             "title": f"{translatedString}",
+    #             "subtitle": "[Enter]를 누르면 결과를 클립보드로 복사합니다.",
+    #             "icon": {"path": "clipboard.png"},
+    #             # "action": "copy",
+    #             "arg": translatedString,
+    #             "valid": True,
+    #             # 'uid': 'outputString',
+    #         },
+    #         {
+    #             "title": "Open in the Web",
+    #             "subtitle": "웹페이지에서 결과를 봅니다.",
+    #             "icon": {"path": "globe.png"},
+    #             # "action": "web",
+    #             "arg": translatedString,
+    #             "valid": True,
+    #             # 'uid': 'outputString',
+    #         },
+    #     ],
+    # }
 
 
 def test_main():
@@ -255,5 +258,6 @@ if __name__ == "__main__":
     if input_string == "debug":
         test_main()
     out = main(input_string)
-    print(json.dumps(out))
+    print(out)
+    # print(json.dumps(out))
     sys.stdout.flush()
