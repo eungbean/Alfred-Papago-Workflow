@@ -8,73 +8,6 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>0AFAA0D8-CB85-4468-A2B3-8B91A084D0FF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>224D4CE0-9DC0-4C2E-BDBD-DAA190DF53FE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>214B09EC-E5A7-4448-9B49-0ADBA07A00C2</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>C008BEEA-C549-474C-AE47-F3D8F9E61624</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>224D4CE0-9DC0-4C2E-BDBD-DAA190DF53FE</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DDC87830-7BF6-48FE-978D-0B56AA20E75D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>A54DEE8F-E484-47E1-AA97-0B4DAB3693CE</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>4A332FD5-D360-42E2-AEAD-E949BA95E70A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>850FF5A8-EB5D-4C10-9FC4-22F99CB650F3</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>516A7598-DE5D-421A-BE5E-03A27663FAF7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0AFAA0D8-CB85-4468-A2B3-8B91A084D0FF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>52087914-0C15-4DD7-B254-86611168CDFF</key>
 		<array>
 			<dict>
@@ -88,24 +21,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>585186AF-B1F3-4F50-82CF-1072EC39F8DF</key>
+		<key>9879750B-46FB-4B5D-88D7-4E7B60E326DC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4A332FD5-D360-42E2-AEAD-E949BA95E70A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>5BCFB128-A477-482E-9DF2-DFF8CAFB1413</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>214B09EC-E5A7-4448-9B49-0ADBA07A00C2</string>
+				<string>19727046-CC38-42D1-842D-3D51C6985260</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -119,69 +39,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7F8AC6B9-54F6-4139-9F64-53BB06C79B2B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>C008BEEA-C549-474C-AE47-F3D8F9E61624</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>516A7598-DE5D-421A-BE5E-03A27663FAF7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>307DEB54-6BC9-41E6-BE52-7BB96281BB62</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>9879750B-46FB-4B5D-88D7-4E7B60E326DC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>695DA00B-E015-4EE0-B5D4-EE5836474AFB</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>D3ABE833-5DF2-433C-A09D-47D8F41FE6F5</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D3ABE833-5DF2-433C-A09D-47D8F41FE6F5</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>585186AF-B1F3-4F50-82CF-1072EC39F8DF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DDC87830-7BF6-48FE-978D-0B56AA20E75D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A4D27512-69BC-45AF-9A50-E6A5328A65A8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -204,242 +61,35 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>seconds</key>
-				<string>2</string>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/eungbean/Alfred-Papago-Workflow</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>DDC87830-7BF6-48FE-978D-0B56AA20E75D</string>
+			<string>19727046-CC38-42D1-842D-3D51C6985260</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>도울 준비가 완료되었어요!</string>
-				<key>title</key>
-				<string>파파고 준비 완료!</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>A4D27512-69BC-45AF-9A50-E6A5328A65A8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>2</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>5</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>2</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>python3 ppg.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>제발 성공하길!</string>
-				<key>title</key>
-				<string>위 문장을 번역해 테스트를 해볼게요. 엔터를 눌러주세요!</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>0AFAA0D8-CB85-4468-A2B3-8B91A084D0FF</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{query}</string>
-						<key>matchcasesensitive</key>
-						<true/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>파파고 준비!</string>
-						<key>outputlabel</key>
-						<string>Success</string>
-						<key>uid</key>
-						<string>A54DEE8F-E484-47E1-AA97-0B4DAB3693CE</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>224D4CE0-9DC0-4C2E-BDBD-DAA190DF53FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>Ready to Papago!</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>selector</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>516A7598-DE5D-421A-BE5E-03A27663FAF7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>fixedorder</key>
-				<true/>
-				<key>items</key>
-				<string>[{"title":"Client ID","arg":"id","subtitle":"ID 키 값을 설정합니다."},{"title":"Client Secret","arg":"secret","subtitle":"Secret 키 값을 설정합니다."},{"title":"- Need help?","arg":"Help","subtitle":"도움이 필요하세요? 제가 도와드릴게요."},{"title":"- Test","arg":"Test","subtitle":"파파고를 테스트해볼게요."}]</string>
 				<key>keyword</key>
 				<string>ppconfig</string>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>runningsubtext</key>
-				<string></string>
 				<key>subtext</key>
-				<string>[ppgconfig] 파파고를 사용하기 위해서는 초기설정이 필요해요.</string>
-				<key>title</key>
-				<string>🎛 파파고 설정</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>5BCFB128-A477-482E-9DF2-DFF8CAFB1413</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:selector}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>Test</string>
-						<key>outputlabel</key>
-						<string>Test</string>
-						<key>uid</key>
-						<string>307DEB54-6BC9-41E6-BE52-7BB96281BB62</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:selector}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>Help</string>
-						<key>outputlabel</key>
-						<string>Help</string>
-						<key>uid</key>
-						<string>695DA00B-E015-4EE0-B5D4-EE5836474AFB</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Config</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>C008BEEA-C549-474C-AE47-F3D8F9E61624</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>selector</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>214B09EC-E5A7-4448-9B49-0ADBA07A00C2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>subtext</key>
-				<string>천천히 따라하면 쉽게 시작할 수 있어요.</string>
+				<string>천천히 따라하면 쉽게 시작할 수 있어요. 도움말 웹사이트로 이동할게요. (Enter)</string>
 				<key>text</key>
-				<string>도움말 웹사이트로 이동할게요. (Enter)</string>
+				<string>🎛 파파고 설정</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -447,73 +97,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>9879750B-46FB-4B5D-88D7-4E7B60E326DC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<true/>
-				<key>filename</key>
-				<string>client_{var:selector}.py</string>
-				<key>filetext</key>
-				<string>client_{var:selector} = "{var:value}"</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>relativepathmode</key>
-				<integer>1</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>4A332FD5-D360-42E2-AEAD-E949BA95E70A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Set {var:selector}</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D3ABE833-5DF2-433C-A09D-47D8F41FE6F5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>파파고가 준비되기 위해서는 ID, Secret 두 개가 필요합니다.</string>
-				<key>title</key>
-				<string>설정 완료: {var:selector}: {var:value}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>850FF5A8-EB5D-4C10-9FC4-22F99CB650F3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -594,26 +177,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>value</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>585186AF-B1F3-4F50-82CF-1072EC39F8DF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>skipqueryencode</key>
@@ -655,134 +218,84 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>## 초기 설정
+1. NCloud 계정을 생성하고 [로그인](https://auth.ncloud.com/login) 해주세요.
+2. [Console &gt; Papago Translation API Key page](https://console.ncloud.com/papago-translation/apis)에서 `+ Application 등록`을 클릭해주세요.
+![setup-0](images/setup-0.png)
+
+
+3. 아래 화면에서 `Application 이름`을 입력하고 `API 선택`에서 `Papago Text Translation`, `Papago Language Detection`을 체크해주세요.
+![setup-1](images/setup-1.png)
+
+
+4. 성공적으로 등록이 되면 아래와 같이 표시됩니다. `API 관리` 화면에서 `인증정보` 버튼을 클릭해주세요.
+![setup-2](images/setup-2.png)
+
+
+5. `인증정보` 창에서 `Client ID`,`Client Secret`을 복사합니다.
+
+6. [Alfred Workflow 설정](https://www.alfredapp.com/help/workflows/user-configuration/)에 추가해줍니다.
+![setup-3](images/setup-3.png)
+
+
+7. [pp 문장] 으로 번역을 테스트해보세요.
+![setup-4](images/setup-4.png)
+
+## Updatelog:
+### 2024-05-07:
+Papago API 서비스가 종료되었습니다.
+새로운 NCloud API에 사용가능하도록 업데이트되었습니다.
+기다려주셔서 감사합니다.
+
+공지사항: https://developers.naver.com/docs/papago/README.md
+
+### 2022-10-04:
+이제 최신 버전의 Alfred 4, 5에서 사용이 가능합니다.
+python3를 지원하지 않던 문제를 해결하였습니다.</string>
 	<key>uidata</key>
 	<dict>
-		<key>0AFAA0D8-CB85-4468-A2B3-8B91A084D0FF</key>
+		<key>19727046-CC38-42D1-842D-3D51C6985260</key>
 		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>note</key>
-			<string>Translate and display it to alfred window</string>
 			<key>xpos</key>
-			<real>610</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>40</real>
-		</dict>
-		<key>214B09EC-E5A7-4448-9B49-0ADBA07A00C2</key>
-		<dict>
-			<key>note</key>
-			<string>Save selector to {var:selector}
-selector="id","secret"</string>
-			<key>xpos</key>
-			<real>275</real>
-			<key>ypos</key>
-			<real>190</real>
-		</dict>
-		<key>224D4CE0-9DC0-4C2E-BDBD-DAA190DF53FE</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<real>780</real>
-			<key>ypos</key>
-			<real>60</real>
-		</dict>
-		<key>4A332FD5-D360-42E2-AEAD-E949BA95E70A</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>save
-account_id.py
-account_secret.py</string>
-			<key>xpos</key>
-			<real>900</real>
-			<key>ypos</key>
-			<real>420</real>
-		</dict>
-		<key>516A7598-DE5D-421A-BE5E-03A27663FAF7</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>note</key>
-			<string>Set Query Sentence.</string>
-			<key>xpos</key>
-			<real>525</real>
-			<key>ypos</key>
-			<real>70</real>
+			<real>110</real>
 		</dict>
 		<key>52087914-0C15-4DD7-B254-86611168CDFF</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>120</real>
+			<real>130</real>
 			<key>ypos</key>
-			<real>640</real>
-		</dict>
-		<key>585186AF-B1F3-4F50-82CF-1072EC39F8DF</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>Save value to {var:value}</string>
-			<key>xpos</key>
-			<real>810</real>
-			<key>ypos</key>
-			<real>450</real>
-		</dict>
-		<key>5BCFB128-A477-482E-9DF2-DFF8CAFB1413</key>
-		<dict>
-			<key>xpos</key>
-			<real>105</real>
-			<key>ypos</key>
-			<real>160</real>
+			<real>480</real>
 		</dict>
 		<key>623B4D3D-FAFB-47C4-BD91-D0FC98624BCF</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>345</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>640</real>
+			<real>480</real>
 		</dict>
 		<key>7F8AC6B9-54F6-4139-9F64-53BB06C79B2B</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>6</integer>
 			<key>xpos</key>
-			<real>345</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>445</real>
-		</dict>
-		<key>850FF5A8-EB5D-4C10-9FC4-22F99CB650F3</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>xpos</key>
-			<real>1065</real>
-			<key>ypos</key>
-			<real>420</real>
+			<real>285</real>
 		</dict>
 		<key>9879750B-46FB-4B5D-88D7-4E7B60E326DC</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<real>615</real>
+			<real>130</real>
 			<key>ypos</key>
-			<real>235</real>
-		</dict>
-		<key>A4D27512-69BC-45AF-9A50-E6A5328A65A8</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<real>925</real>
-			<key>ypos</key>
-			<real>35</real>
+			<real>110</real>
 		</dict>
 		<key>B92429C8-59F9-48D8-842A-1D6B291E7815</key>
 		<dict>
@@ -791,38 +304,100 @@ account_secret.py</string>
 			<key>note</key>
 			<string>Translate query and get response from Papago</string>
 			<key>xpos</key>
-			<real>120</real>
+			<real>130</real>
 			<key>ypos</key>
-			<real>445</real>
-		</dict>
-		<key>C008BEEA-C549-474C-AE47-F3D8F9E61624</key>
-		<dict>
-			<key>xpos</key>
-			<real>350</real>
-			<key>ypos</key>
-			<real>165</real>
-		</dict>
-		<key>D3ABE833-5DF2-433C-A09D-47D8F41FE6F5</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>xpos</key>
-			<real>615</real>
-			<key>ypos</key>
-			<real>420</real>
-		</dict>
-		<key>DDC87830-7BF6-48FE-978D-0B56AA20E75D</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<real>865</real>
-			<key>ypos</key>
-			<real>35</real>
+			<real>285</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>NCloud Client ID</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>ncloud_client_id</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>NCloud Client Secret</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>ncloud_client_secret</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>pp</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Papago Workflow Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>pp</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>ppo</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Papago Web Workflow Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>ppo</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>3.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/eungbean/Alfred-Papago-Workflow</string>
 </dict>

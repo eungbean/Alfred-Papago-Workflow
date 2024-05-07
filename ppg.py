@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ppg.py
-import sys
 import json
-
+import os
 import ssl
+import sys
 import urllib.parse
 import urllib.request
-
 
 """
 useage: python ppg.py 'SOME STRING TO TRANSLATE'
@@ -16,6 +15,15 @@ test: pytest -s ppg.py
 papago api
 https://developers.naver.com/docs/papago/papago-nmt-overview.md
 """
+
+# get client id and secret
+try:
+    CLIENT_ID = os.environ["ncloud_client_id"]
+    CLIENT_SECRET = os.environ["ncloud_client_secret"]
+except ImportError:
+    client_id = "[ERR] client_id/secret을 설정하세요."
+    client_secret = "[ERR] client id/secret is not defined."
+
 
 LANGCODES = {
     # Supported Language Codes
@@ -43,28 +51,32 @@ LANGCODES = {
 
 
 SUPPORTED_PAIRS = {  # fmt: off
-    "ko": ["en", "ja", "zh-CN", "zh-TW", "vi", "id", "th", "de", "ru", "es", "it", "fr"],
+    "ko": [
+        "en",
+        "ja",
+        "zh-CN",
+        "zh-TW",
+        "vi",
+        "id",
+        "th",
+        "de",
+        "ru",
+        "es",
+        "it",
+        "fr",
+    ],
     "en": ["ko", "ja", "fr", "zh-CN", "zh-TW"],
     "ja": ["ko", "en", "zh-CN", "zh-TW"],
     "zh-CN": ["ko", "en", "ja", "zh-TW"],
 }  # fmt: on
 
-# Load client_id, client_secret
-try:
-    from client_id import client_id
-    from client_secret import client_secret
-except ImportError:
-    client_id = "[ERR] client_id/secret을 설정하세요. ppconfig -> id/secret"
-    client_secret = "[ERR] ppconfig -> id/secret"
 
-
-def get_response(appcode, data):
+def get_response(request_url, data):
     context = ssl._create_unverified_context()
 
-    request = urllib.request.Request(f"https://openapi.naver.com/v1/papago/{appcode}")
-    request.add_header("X-Naver-Client-Id", client_id)
-    request.add_header("X-Naver-Client-Secret", client_secret)
-
+    request = urllib.request.Request(request_url)
+    request.add_header("X-NCP-APIGW-API-KEY-ID", CLIENT_ID)
+    request.add_header("X-NCP-APIGW-API-KEY", CLIENT_SECRET)
     try:
         response = urllib.request.urlopen(
             request, data=data.encode("utf-8"), context=context
@@ -87,7 +99,8 @@ def get_source_langcode(word: str) -> dict:
     """
     encQuery = urllib.parse.quote(word)
     data = f"query={encQuery}"
-    return get_response(appcode="detectLangs", data=data)
+    request_url = "https://naveropenapi.apigw.ntruss.com/langs/v1/dect"
+    return get_response(request_url, data=data)
 
 
 # TODO: add target_langcode option
@@ -113,23 +126,24 @@ def get_translated_data(word: str, langcode_pair: tuple) -> dict:
     langcode_pair: tuple(source_langcode, target_langcode)
     """
     encText = urllib.parse.quote(word)
+    request_url = "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation"
     data = f"source={langcode_pair[0]}&target={langcode_pair[1]}&text={encText}"
-    return get_response(appcode="n2mt", data=data)
+    return get_response(request_url, data=data)
 
 
 def return_error(title, subtitle):
     return {
-        "variables": {'status': False},
+        "variables": {"status": False},
         "items": [
             {
                 "title": title,
                 "subtitle": subtitle,
                 # "icon": {"path": "clipboard.png"},
-                "arg": 'error',
+                "arg": "error",
                 "valid": False,
                 # 'uid': 'outputString',
             }
-        ]
+        ],
     }
 
 
@@ -139,9 +153,9 @@ def main(inputString=None):
     translates it using the get_translated_data function, and produces an output in JSON format.
     """
     # [ERROR] Client Not Set
-    if "[ERR]" in client_id:
-        title = '[Error] client_id/secret가 잘 설정되었는지 확인해주세요.'
-        subtitle = "설정법: ppconfig -> id/secret"
+    if "[ERR]" in CLIENT_ID:
+        title = "[Error] client_id/secret가 잘 설정되었는지 확인해주세요."
+        subtitle = "Plese check client_id/secret."
         return return_error(title, subtitle)
 
     # Language detection
@@ -149,8 +163,8 @@ def main(inputString=None):
 
     # [ERROR] client_id/secret not valid
     if isinstance(source_langcode, int):
-        title = '[Error] client_id/secret가 잘 설정되었는지 확인해주세요.'
-        subtitle = "설정법: ppconfig -> id/secret"
+        title = "[Error] client_id/secret가 잘 설정되었는지 확인해주세요."
+        subtitle = "Plese check client_id/secret."
         return return_error(title, subtitle)
 
     source_langcode = source_langcode["langCode"]
@@ -178,29 +192,28 @@ def main(inputString=None):
 
     return {
         "variables": {
-            'input': inputString,
-            'result': translatedString,
-            'status': True,
+            "input": inputString,
+            "result": translatedString,
+            "status": True,
         },
         "items": [
             {
                 "title": f"{translatedString}",
-                "subtitle": '[Enter]를 누르면 결과를 클립보드로 복사합니다.',
+                "subtitle": "[Enter]를 누르면 결과를 클립보드로 복사합니다.",
                 "icon": {"path": "clipboard.png"},
-                "arg": 'copy',
+                "arg": "copy",
                 "valid": True,
                 # 'uid': 'outputString',
             },
             {
                 "title": "Open in the Web",
                 "subtitle": "웹페이지에서 결과를 봅니다.",
-                "icon": {'path': 'globe.png'},
-                "arg": 'web',
+                "icon": {"path": "globe.png"},
+                "arg": "web",
                 "valid": True,
                 # 'uid': 'outputString',
-            }
-
-        ]
+            },
+        ],
     }
 
 
@@ -229,6 +242,8 @@ def test_main():
     for input_string in input_strings:
         out = main(input_string)
         print(out)
+        # print(json.dumps(out))
+        # sys.stdout.flush()
 
 
 if __name__ == "__main__":
@@ -237,6 +252,8 @@ if __name__ == "__main__":
     python ppg.py 'SOME STRING TO TRANSLATE'
     """
     input_string = str(sys.argv[1])
+    if input_string == "debug":
+        test_main()
     out = main(input_string)
     print(json.dumps(out))
     sys.stdout.flush()

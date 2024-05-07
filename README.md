@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/Vietnamese-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNkODAwMjciIGQ9Ik0wIDBoNTEydjUxMkgweiIvPjxwYXRoIGZpbGw9IiNmZmRhNDQiIGQ9Im0yNTYgMTMzLjYgMjcuNiA4NUgzNzNMMzAwLjcgMjcxbDI3LjYgODUtNzIuMy01Mi41LTcyLjMgNTIuNiAyNy42LTg1LTcyLjMtNTIuNmg4OS40eiIvPjwvZz48L3N2Zz4=">
 <img src="https://img.shields.io/badge/Thai-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNkODAwMjciIGQ9Ik0wIDBoNTEydjg5bC03OS4yIDE2My43TDUxMiA0MjN2ODlIMHYtODlsODIuNy0xNjkuNkwwIDg5eiIvPjxwYXRoIGZpbGw9IiNlZWUiIGQ9Ik0wIDg5aDUxMnY3OGwtNDIuNiA5MS4yTDUxMiAzNDV2NzhIMHYtNzhsNDAtOTIuNUwwIDE2N3oiLz48cGF0aCBmaWxsPSIjMDA1MmI0IiBkPSJNMCAxNjdoNTEydjE3OEgweiIvPjwvZz48L3N2Zz4="></br>
 <img src="https://img.shields.io/badge/Indonesian-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNlZWUiIGQ9Im0wIDI1NiAyNDkuNi00MS4zTDUxMiAyNTZ2MjU2SDB6Ii8+PHBhdGggZmlsbD0iI2EyMDAxZCIgZD0iTTAgMGg1MTJ2MjU2SDB6Ii8+PC9nPjwvc3ZnPg==">
-<img src="https://img.shields.io/badge/German-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNmZmRhNDQiIGQ9Im0wIDM0NSAyNTYuNy0yNS41TDUxMiAzNDV2MTY3SDB6Ii8+PHBhdGggZmlsbD0iI2Q4MDAyNyIgZD0ibTAgMTY3IDI1NS0yMyAyNTcgMjN2MTc4SDB6Ii8+PHBhdGggZmlsbD0iIzMzMyIgZD0iTTAgMGg1MTJ2MTY3SDB6Ii8+PC9nPjwvc3ZnPg=="> 
+<img src="https://img.shields.io/badge/German-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNmZmRhNDQiIGQ9Im0wIDM0NSAyNTYuNy0yNS41TDUxMiAzNDV2MTY3SDB6Ii8+PHBhdGggZmlsbD0iI2Q4MDAyNyIgZD0ibTAgMTY3IDI1NS0yMyAyNTcgMjN2MTc4SDB6Ii8+PHBhdGggZmlsbD0iIzMzMyIgZD0iTTAgMGg1MTJ2MTY3SDB6Ii8+PC9nPjwvc3ZnPg==">
 <img src="https://img.shields.io/badge/Spanish-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNmZmRhNDQiIGQ9Im0wIDEyOCAyNTYtMzIgMjU2IDMydjI1NmwtMjU2IDMyTDAgMzg0WiIvPjxwYXRoIGZpbGw9IiNkODAwMjciIGQ9Ik0wIDBoNTEydjEyOEgwem0wIDM4NGg1MTJ2MTI4SDB6Ii8+PGcgZmlsbD0iI2VlZSI+PHBhdGggZD0iTTE0NCAzMDRoLTE2di04MGgxNnptMTI4IDBoMTZ2LTgwaC0xNnoiLz48ZWxsaXBzZSBjeD0iMjA4IiBjeT0iMjk2IiByeD0iNDgiIHJ5PSIzMiIvPjwvZz48ZyBmaWxsPSIjZDgwMDI3Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMjQiIHg9IjEyOCIgeT0iMTkyIiByeD0iOCIvPjxyZWN0IHdpZHRoPSIxNiIgaGVpZ2h0PSIyNCIgeD0iMjcyIiB5PSIxOTIiIHJ4PSI4Ii8+PHBhdGggZD0iTTIwOCAyNzJ2MjRhMjQgMjQgMCAwIDAgMjQgMjQgMjQgMjQgMCAwIDAgMjQtMjR2LTI0aC0yNHoiLz48L2c+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjE2IiB4PSIxMjAiIHk9IjIwOCIgZmlsbD0iI2ZmOTgxMSIgcnk9IjgiLz48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMTYiIHg9IjI2NCIgeT0iMjA4IiBmaWxsPSIjZmY5ODExIiByeT0iOCIvPjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIxNiIgeD0iMTIwIiB5PSIzMDQiIGZpbGw9IiNmZjk4MTEiIHJ4PSI4Ii8+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjE2IiB4PSIyNjQiIHk9IjMwNCIgZmlsbD0iI2ZmOTgxMSIgcng9IjgiLz48cGF0aCBmaWxsPSIjZmY5ODExIiBkPSJNMTYwIDI3MnYyNGMwIDggNCAxNCA5IDE5bDUtNiA1IDEwYTIxIDIxIDAgMCAwIDEwIDBsNS0xMCA1IDZjNi01IDktMTEgOS0xOXYtMjRoLTlsLTUgOC01LThoLTEwbC01IDgtNS04eiIvPjxwYXRoIGQ9Ik0xMjIgMjUyaDE3Mm0tMTcyIDI0aDI4bTExNiAwaDI4Ii8+PHBhdGggZmlsbD0iI2Q4MDAyNyIgZD0iTTEyMiAyNDhhNCA0IDAgMCAwLTQgNCA0IDQgMCAwIDAgNCA0aDE3MmE0IDQgMCAwIDAgNC00IDQgNCAwIDAgMC00LTR6bTAgMjRhNCA0IDAgMCAwLTQgNCA0IDQgMCAwIDAgNCA0aDI4YTQgNCAwIDAgMCA0LTQgNCA0IDAgMCAwLTQtNHptMTQ0IDBhNCA0IDAgMCAwLTQgNCA0IDQgMCAwIDAgNCA0aDI4YTQgNCAwIDAgMCA0LTQgNCA0IDAgMCAwLTQtNHoiLz48cGF0aCBmaWxsPSIjZWVlIiBkPSJNMTk2IDE2OGMtNyAwLTEzIDUtMTUgMTFsLTUtMWMtOSAwLTE2IDctMTYgMTZzNyAxNiAxNiAxNmM3IDAgMTMtNCAxNS0xMWExNiAxNiAwIDAgMCAxNy00IDE2IDE2IDAgMCAwIDE3IDQgMTYgMTYgMCAxIDAgMTAtMjAgMTYgMTYgMCAwIDAtMjctNWMtMy00LTctNi0xMi02em0wIDhjNSAwIDggNCA4IDggMCA1LTMgOC04IDgtNCAwLTgtMy04LTggMC00IDQtOCA4LTh6bTI0IDBjNSAwIDggNCA4IDggMCA1LTMgOC04IDgtNCAwLTgtMy04LTggMC00IDQtOCA4LTh6bS00NCAxMCA0IDEgNCA4YzAgNC00IDctOCA3cy04LTMtOC04YzAtNCA0LTggOC04em02NCAwYzUgMCA4IDQgOCA4IDAgNS0zIDgtOCA4LTQgMC04LTMtOC03bDQtOHoiLz48cGF0aCBmaWxsPSJub25lIiBkPSJNMjIwIDI4NHYxMmMwIDcgNSAxMiAxMiAxMnMxMi01IDEyLTEydi0xMnoiLz48cGF0aCBmaWxsPSIjZmY5ODExIiBkPSJNMjAwIDE2MGgxNnYzMmgtMTZ6Ii8+PHBhdGggZmlsbD0iI2VlZSIgZD0iTTIwOCAyMjRoNDh2NDhoLTQ4eiIvPjxwYXRoIGZpbGw9IiNkODAwMjciIGQ9Im0yNDggMjA4LTggOGgtNjRsLTgtOGMwLTEzIDE4LTI0IDQwLTI0czQwIDExIDQwIDI0em0tODggMTZoNDh2NDhoLTQ4eiIvPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIzMiIgeD0iMjIyIiB5PSIyMzIiIGZpbGw9IiNkODAwMjciIHJ4PSIxMCIgcnk9IjEwIi8+PHBhdGggZmlsbD0iI2ZmOTgxMSIgZD0iTTE2OCAyMzJ2OGg4djE2aC04djhoMzJ2LThoLTh2LTE2aDh2LTh6bTgtMTZoNjR2OGgtNjR6Ii8+PGcgZmlsbD0iI2ZmZGE0NCI+PGNpcmNsZSBjeD0iMTg2IiBjeT0iMjAyIiByPSI2Ii8+PGNpcmNsZSBjeD0iMjA4IiBjeT0iMjAyIiByPSI2Ii8+PGNpcmNsZSBjeD0iMjMwIiBjeT0iMjAyIiByPSI2Ii8+PC9nPjxwYXRoIGZpbGw9IiNkODAwMjciIGQ9Ik0xNjkgMjcydjQzYTI0IDI0IDAgMCAwIDEwIDR2LTQ3aC0xMHptMjAgMHY0N2EyNCAyNCAwIDAgMCAxMC00di00M2gtMTB6Ii8+PGcgZmlsbD0iIzMzOGFmMyI+PGNpcmNsZSBjeD0iMjA4IiBjeT0iMjcyIiByPSIxNiIvPjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIxNiIgeD0iMjY0IiB5PSIzMjAiIHJ5PSI4Ii8+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjE2IiB4PSIxMjAiIHk9IjMyMCIgcnk9IjgiLz48L2c+PC9nPjwvc3ZnPg==">
 <img src="https://img.shields.io/badge/Italian-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNlZWUiIGQ9Ik0xNjcgMGgxNzhsMjUuOSAyNTIuM0wzNDUgNTEySDE2N2wtMjkuOC0yNTMuNHoiLz48cGF0aCBmaWxsPSIjNmRhNTQ0IiBkPSJNMCAwaDE2N3Y1MTJIMHoiLz48cGF0aCBmaWxsPSIjZDgwMDI3IiBkPSJNMzQ1IDBoMTY3djUxMkgzNDV6Ii8+PC9nPjwvc3ZnPg==">
 <img src="https://img.shields.io/badge/French-grey.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PG1hc2sgaWQ9ImEiPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSIjZmZmIi8+PC9tYXNrPjxnIG1hc2s9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNlZWUiIGQ9Ik0xNjcgMGgxNzhsMjUuOSAyNTIuM0wzNDUgNTEySDE2N2wtMjkuOC0yNTMuNHoiLz48cGF0aCBmaWxsPSIjMDA1MmI0IiBkPSJNMCAwaDE2N3Y1MTJIMHoiLz48cGF0aCBmaWxsPSIjZDgwMDI3IiBkPSJNMzQ1IDBoMTY3djUxMkgzNDV6Ii8+PC9nPjwvc3ZnPg==">
@@ -72,26 +72,31 @@ pp {문장}
 
 ### 0. 필수설치
 
-(macOS Monterey 12.3 이하) Xcode의 설치가 필요합니다. [[#5](https://github.com/eungbean/Alfred-Papago-Workflow/issues/5)]  
+(macOS Monterey 12.3 이하) Xcode의 설치가 필요합니다. [[#5](https://github.com/eungbean/Alfred-Papago-Workflow/issues/5)]
 앱스토어에서 [XCode](https://developer.apple.com/download/all/?q=Xcode)를 설치해주세요.
 
 ### 1. Papago API Key 발급받기
+1. NCloud 계정을 생성하고 [로그인](https://auth.ncloud.com/login) 해주세요.
+2. [Console > Papago Translation API Key page](https://console.ncloud.com/papago-translation/apis)에서 `+ Application 등록`을 클릭해주세요.
+![setup-0](images/setup-0.png)
 
-파파고 Alfred3 Workflow를 사용하기 위해서는 초기설정이 필요합니다.
 
-> 발급 방법은 [이 링크](https://jvvp.tistory.com/1106)를 참고해주세요.
+3. 아래 화면에서 `Application 이름`을 입력하고 `API 선택`에서 `Papago Text Translation`, `Papago Language Detection`을 체크해주세요.
+![setup-1](images/setup-1.png)
 
-- Papago API key (client_id)
-- Papago secret key (client_secret)
 
-### 2. Papago API Key 설정하기 <kbd>ppconfig</kbd>
+4. 성공적으로 등록이 되면 아래와 같이 표시됩니다. `API 관리` 화면에서 `인증정보` 버튼을 클릭해주세요.
+![setup-2](images/setup-2.png)
 
-<img src = "document/ppconfig.png" height="50%">
 
-- `client_id`에 Client ID를 입력합니다.
-- `slient_secret`에 Secret을 입력합니다.
-- `Test`를 통해 정상 작동 여부를 확인할 수 있습니다.
+5. `인증정보` 창에서 `Client ID`,`Client Secret`을 복사합니다.
 
+6. [Alfred Workflow 설정](https://www.alfredapp.com/help/workflows/user-configuration/)에 추가해줍니다.
+![setup-3](images/setup-3.png)
+
+
+7. [pp 문장] 으로 번역을 테스트해보세요.
+![setup-4](images/setup-4.png)
 
 ## 🧚‍♀️ Features
 - [x] 한/영, 영/한 번역 기능
@@ -102,10 +107,13 @@ pp {문장}
 
 
 ## ❤ Contribution is always welcome!
-질문이나 버그를 발견했나요? 특정 기능이 필요하신가요?  
-자유롭게 새로운 이슈나 각각의 제목과 설명과 함께 PR을 제출하세요.  
-문제에 대한 해결책을 이미 찾았다면 망설이지 말고 공유하세요.  
-새로운 제안은 언제든지 환영입니다!  
+질문이나 버그를 발견했나요? 특정 기능이 필요하신가요?
+자유롭게 새로운 이슈나 각각의 제목과 설명과 함께 PR을 제출하세요.
+문제에 대한 해결책을 이미 찾았다면 망설이지 말고 공유하세요.
+새로운 제안은 언제든지 환영입니다!
+
+- Thank you for your update request for papago api shutdown issue.
+* (2024-05-07)
 
 - https://github.com/eungbean/Alfred-Papago-Workflow/issues/5 [@f022yo9](https://github.com/f022yo9) [@DreamingMaru](https://github.com/DreamingMaru): Thank you for discovering and resolving SSL Credential Error.
 * (2023-11)
